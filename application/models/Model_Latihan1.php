@@ -5,7 +5,7 @@ class Model_Latihan1 extends CI_Model
     public $nilai1, $nilai2, $hasil;
 
     //method penjumlahan
-    public function jumlah($n1 = null, $n2 = null)
+    public function jumlah($nil1 = null, $nil2 = null)
     {
         $this->nilai1 = $nil1;
         $this->nilai2 = $nil2;
